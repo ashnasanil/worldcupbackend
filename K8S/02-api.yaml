@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: worldcup-backend
-          image: worldcupacr12345.azurecr.io/worldcup-api:latest
+          image: worldcupacr12345.azurecr.io/worldcup-backend:latest
           env:
             - name: ConnectionStrings__DefaultConnection
               valueFrom:
